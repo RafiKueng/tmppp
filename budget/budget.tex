@@ -1,29 +1,6 @@
-\documentstyle[ulem,12pt]{article}
+\documentclass[12pt]{article}
 
-%[10pt]
-
-\def\ap#1#2#3{     {\it Ann. Phys. (NY) }{\bf #1} (19#2) #3}
-\def\arnps#1#2#3{  {\it Ann. Rev. Nucl. Part. Sci. }{\bf #1} (19#2) #3}
-\def\ijmp#1#2#3{   {\it Int. J. Mod. Phys. }{\bf #1} (19#2) #3}
-\def\jhep#1#2#3{   {\it J.High Energy Phys. }{\bf #1} (19#2) #3}
-\def\npb#1#2#3{    {\it Nucl. Phys. }{\bf B\,#1} (19#2) #3}
-\def\plb#1#2#3{    {\it Phys. Lett. }{\bf B\,#1} (19#2) #3}
-\def\prd#1#2#3{    {\it Phys. Rev. }{\bf D\,#1} (19#2) #3}
-\def\prep#1#2#3{   {\it Phys. Rep. }{\bf #1} (19#2) #3}
-\def\prl#1#2#3{    {\it Phys. Rev. Lett. }{\bf #1} (19#2) #3}
-\def\ptp#1#2#3{    {\it Prog. Theor. Phys. }{\bf #1} (19#2) #3}
-\def\rmp#1#2#3{    {\it Rev. Mod. Phys. }{\bf #1} (19#2) #3}
-\def\zpc#1#2#3{    {\it Zeit. f\"{u}r Physik }{\bf C\,#1} (19#2) #3}
-\def\epjc#1#2#3{   {\it Eur. Phys. J. }{\bf C\,#1} (19#2) #3}
-\def\mpla#1#2#3{   {\it Mod. Phys. Lett. }{\bf A\,#1} (19#2) #3}
-\def\sjnp#1#2#3{   {\it Sov. J. Nucl. Phys. }{\bf #1} (19#2) #3}
-\def\yf#1#2#3{     {\it Yad. Fiz. }{\bf #1} (19#2) #3}
-\def\nc#1#2#3{     {\it Nuovo Cim. }{\bf #1} (19#2) #3}
-\def\jetpl#1#2#3{  {\it JETP Lett. }{\bf #1} (19#2) #3}
-\def\ib#1#2#3{     {\it ibid. }{\bf #1} (19#2) #3}
-%----------------------------------------------------------------------
-
-
+\usepackage[utf8]{inputenc}
 
 \setlength{\parskip}{2ex}
 \setlength{\parindent}{2em}
@@ -34,70 +11,35 @@
 %\setlength{\topmargin}{-2.0cm}         % Zurich
 \setlength{\topmargin}{-1.0cm}         % Bern
 \def\thefootnote{\fnsymbol{footnote}}
-%-----------------------------------------------------------------------
-\def\gtap{\ \raisebox{-.4ex}{\rlap{$\sim$}} \raisebox{.4ex}{$>$}\ }
-\newcommand{\bbrx}{\mbox{${\rm BR}(\overline{B}\to X_s\gamma)\,$}}
 
 \setlength{\parindent}{0pt} % No indent
 
-\begin{document}
 \renewcommand{\thesection}{\Alph{section}}
 \renewcommand{\thesubsection}{\arabic{subsection}}
 
+%-----------------------------------------------------------------------
 
-
-\def\age{\mbox{$Age$}}
-\def\rhoDM{\mbox{$\langle \rho_{\rm DM} \rangle$}}
-\def\Re{\mbox{$R_{\rm eff}$}}
-\def\Msun{\mbox{$M_\odot$}}
-\def\ML{\mbox{$M/L$}}
-\def\Mdyn{\mbox{$M_{\rm dyn}$}}
-\def\mst{\mbox{$M_{\star}$}}
-\def\sigS{\mbox{$\sigma_{\rm SIS}$}}
-\def\sigN{\mbox{$\sigma_{\rm NIS}$}}
-\def\fdm{\mbox{$f_{\rm DM}$}}
-\def\lsim{\mathrel{\rlap{\lower3.5pt\hbox{\hskip0.5pt$\sim$}}
-    \raise0.5pt\hbox{$<$}}}                % less than or approx. symbol
-\def\gsim{~\rlap{$>$}{\lower 1.0ex\hbox{$\sim$}}}
-\def\Zsun{\mbox{$Z_{\odot}$}}
-
-\def\sig{\mbox{$\sigma$}}
-\def\sigc{\mbox{$\sigma_{0}$}}
-
-\def\gZ{\mbox{$\nabla_{\rm Z}$}}
-\def\gage{\mbox{$\nabla_{\rm age}$}}
-\def\gML{\mbox{$\nabla_{\rm \tiny \Yst}$}}
-
-\def\gug{\mbox{$\nabla_{\rm u-g}$}}
-\def\ggr{\mbox{$\nabla_{\rm g-r}$}}
-\def\ggi{\mbox{$\nabla_{\rm g-i}$}}
-\def\ggz{\mbox{$\nabla_{\rm g-z}$}}
-
-
-\def\Ngr{\mbox{$\rm N_{\rm gr}$}}
-\def\Ie{\mbox{$I_{\rm eff}$}}
-\newcommand{\mie}{$<\! \mu\! >_{\rm e}$}
-
+\begin{document}
 
 \newpage
 
-
-
-
 \section*{Expected Budget for Salaries and Material}
 
-Office space is already provided by the Institute for Theoretical Physics at the Irchel Campus. I will mainly need supercomputer time which I will be able to get from 
-the university's {\it Schroedinger} and the local {\it ZBox} system of our institute. This is free of charge. I need one year of PhD salary
-(third year) and approximately CHF 2000.- for conference and travel fees (for 3-4 conferences in a year). No additional materials are needed.
+Office space is already provided by the Physics Institute at the Irchel Campus.
+I need two year of PhD salary.
+To ensure fast data processing I require a web server with 8 cores, that powers the online applications.
+Approximately CHF 2000.- for conference and travel fees (for 3-4 conferences in a year).
+No additional materials are needed.
 
 \vspace{1cm}
 
 \begin{tabular}{llr}
 
- {\bf 2013/2014} & Third year PhD salary (CHF): & \underline{48000} \\
+ {\bf 2014/2015} & PhD salary (CHF): & \underline{48000} \\
+            & Application Server (CHF): & \underline{3000} \\
             & Conference and travel fees (CHF): & \underline{2000} \\
-            && \\
- {\bf total (CHF)} &   & {\bf \uuline{50000}}
+            & & \\
+ {\bf total (CHF)} &   & {\bf \underline{53000}}
 \end{tabular}
 
 

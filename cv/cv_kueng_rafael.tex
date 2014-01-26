@@ -1,17 +1,17 @@
 %______________________________________________________________________________________________________________________
 % @brief    LaTeX2e Resume for Kamil K Wojcicki
-\documentclass[a4paper,margin,line,useAMS,usenatbib]{resume}
+\documentclass[margin,line]{resume}
 
 
 
 \usepackage[T1]{fontenc}
-\usepackage[sc,osf]{mathpazo}
+%\usepackage[sc,osf]{mathpazo}
 \usepackage{hyperref}
 \usepackage[english]{babel}
-\usepackage{epsfig}
+%\usepackage{epsfig}
 \usepackage{graphicx}
-\usepackage{eucal}
-\usepackage{latexsym}
+%\usepackage{eucal}
+%\usepackage{latexsym}
 \usepackage{fancyhdr}
 \usepackage{amsfonts}
 \usepackage{amssymb,amsmath}
@@ -24,7 +24,7 @@
 \linespread{1.1}
 
 
-\def\gsim{~\rlap{$>$}{\lower 1.0ex\hbox{$\sim$}}}
+%\def\gsim{~\rlap{$>$}{\lower 1.0ex\hbox{$\sim$}}}
 
 \def\tb{\textbullet\;}
 
@@ -68,19 +68,20 @@ CH-8057 Z\"urich, Switzerland     \hfill webpage:
 
 \begin{list2}
 
-  \item  PhD in Physics, Universität Zürich  \hfill {\bf Feb 2014 - present}\\
+  \item  PhD in Physics, Universität Zürich
+  \hfill {\bf Feb 2014 - present}\\
   {\small Supervisor: XXX, Dr. P. Saha}
 
-  \item MSc in Computational Science \hfill {\bf 31/12/2013}\\
-  Universität Zürich \\
+  \item MSc in Computational Science, Universität Zürich
+  \hfill {\bf 31/12/2013}\\
   {\small Thesis Title: \emph{SpaghettiLens -- Lens modeling made easy} \\
   Supervisors: Prof. G. Lake, Dr. P. Saha}.
 
-  \item BSc in Physics \hfill {\bf 31/07/2012}\\
-  Universität Zürich \\
+  \item BSc in Physics, Universität Zürich
+  \hfill {\bf 31/07/2012}\\
   {\small Minors: \emph{Mathematics, Applied Informatics for Scientists, Neuroinformatics}\\
   Thesis Title: \emph{HaloViz: An analysis and visualization tool for halos in astrophysical simulations} \\
-  Supervisors: Prof. B. Moore}.
+  Supervisors: Prof. B. Moore, Ch. Corbett Moran}
 
   \item High school diploma \hfill {\bf Summer 2005}\\
   Kantonsschule Wohlen, Switzerland
@@ -167,18 +168,25 @@ CH-8057 Z\"urich, Switzerland     \hfill webpage:
 %__________________________________________________________________________________________________________________
 \section{\mysidestyle Language and\\ computing skills}
 
-{\it Languages:}
-\begin{list2}
-  \item German       \hfill {\bf mother tongue}
-  \item English      \hfill {\bf fluent in speaking and writing}
-  \item French       \hfill {\bf good}
-\end{list2}
+{\it Languages:}\\
+  \tb German (mother tongue)
+  \tb English (fluent in speaking and writing)
+  \tb French (average)
+%\begin{list2}
+  %\item German       \hfill {\bf mother tongue}
+  %\item English      \hfill {\bf fluent in speaking and writing}
+  %\item French       \hfill {\bf good}
+%\end{list2}
+
+
 
 {\it Software skills:}\\
-Extensive use of the \tb GNU/Linux and \tb Windows operating systems, both as administrator and user. Good knowledge of \tb \LaTeX, \tb Office and \tb Matlab.
+  Extensive use of the \tb GNU/Linux and \tb Windows operating systems, both as administrator and user.
+  Experience with setup and administration of \tb LDAP, \tb SAMBA, \tb XMPP, \tb XAMPP, \tb nginX, \tb MySQL and \tb Virtual Machines.
+  Good knowledge of \tb \LaTeX, \tb Office and \tb Matlab.
 
 {\it Programming:}\\
-Good knowledge of \tb C++ \tb Python \tb Java \tb HTML \tb JavaScript and \tb PHP.
+  Good knowledge of \tb C++ \tb Python \tb Django \tb Java \tb HTML \tb JavaScript and \tb PHP.
 
 %    %__________________________________________________________________________________________________________________
 %    % contracts
@@ -204,6 +212,7 @@ Good knowledge of \tb C++ \tb Python \tb Java \tb HTML \tb JavaScript and \tb PH
 %\end{list2}
 
 
+\newpage
 
 %__________________________________________________________________________________________________________________
 \section{\mysidestyle Didactical\\activity}
@@ -211,33 +220,41 @@ Good knowledge of \tb C++ \tb Python \tb Java \tb HTML \tb JavaScript and \tb PH
 \begin{list2}
 
   \item Tutor and lecture assistant for the lectures \emph{Physik I/II}
-        \hfill {\bf 2013/2014} \\
-        held by Prof. U.~Straumann
-        Universität Zürich
+    \hfill {\bf 2013/2014} \\
+    {\small
+      held by Prof. U.~Straumann, 
+      Universität Zürich
+    }
 
   \item Tutor for the colloquium \emph{Physik für Mediziner}
-        \hfill {\bf 2009 -- 2012} \\
-        held by Prof. J. Osterwalder\\
-        Universität Zürich
+    \hfill {\bf 2009 -- 2012} \\
+    {\small
+      held by Prof. J. Osterwalder, 
+      Universität Zürich
+    }
 
-  \item Tutor for the colloquium \emph{Physik für Biologen}
-        \hfill {\bf 2009 -- 2012} \\
-        held by Dr. Ch. Aegerter\\
-        Universität Zürich
+  \item Tutor for \emph{Physik für Biologen}
+    \hfill {\bf 2009 -- 2012} \\
+    {\small
+      held by Dr. Ch. Aegerter,
+      Universität Zürich
+    }
 
-  \item Highschool teacher for \emph{Physics}
-        \hfill {\bf Jul 2011 - Dec 2011}\\
-        Realgymnasium Rämibühl, Zürich
+  \item Highschool teacher for \emph{Physics} (65\%)
+    \hfill {\bf Jul 2011 - Dec 2011}\\
+    {\small
+      Realgymnasium Rämibühl, Zürich
+    }
 
-  \item Highschool teacher for \emph{Physics}
-        \hfill {\bf Jan 2009 - Jul 2011}\\
-        Literargymnasium Rämibühl, Zürich
+  \item Highschool teacher for \emph{Physics} (25\%)
+    \hfill {\bf Jan 2009 - Jul 2011}\\
+    {\small
+      Literargymnasium Rämibühl, Zürich
+    }
 
 \end{list2}
 
 
-
-\newpage
 
 %__________________________________________________________________________________________________________________
 %\section{\mysidestyle Conferences and Schools}

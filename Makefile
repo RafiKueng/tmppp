@@ -1,20 +1,20 @@
-BUGETDIR=./budget
+BUDGETDIR=./budget
 RPLANDIR=./research_plan
 CVDIR=./cv
-PUBDIR=./publication
+PUBDIR=./publications
 ABSTDIR=./abstract
 
-BUGET=budget
+BUDGET=budget
 RPLAN=research_plan
-CV=cv
-PUB=publication
+CV=cv_kueng_rafael
+PUB=publications
 ABST=abstract
 
 OUTDIR=./_ALL
 
-all: rplan cv pubs budget abstract
-	mkdir $(OUTDIR)
-	cp $(BUGETDIR)/*.pdf $(OUTDIR)/
+all: rplan cvit pubs budget abstract
+	mkdir -p $(OUTDIR)
+	cp $(BUDGETDIR)/*.pdf $(OUTDIR)/
 	cp $(RPLANDIR)/*.pdf $(OUTDIR)/
 	cp $(CVDIR)/*.pdf $(OUTDIR)/
 	cp $(PUBDIR)/*.pdf $(OUTDIR)/
@@ -30,7 +30,7 @@ rplan:
 	pdflatex $(RPLAN); \
 	echo done
     
-cv:
+cvit:
 	echo Creating $(CVDIR)
 	cd $(CVDIR); \
 	pdflatex $(CV); \
@@ -41,16 +41,14 @@ cv:
     
 pubs:
 	echo Creating $(PUBDIR)
-	cd $(PUBDIR)
-	pdflatex $(PUB); \
-	bibtex $(PUB); \
+	cd $(PUBDIR); \
 	pdflatex $(PUB); \
 	pdflatex $(PUB); \
 	echo done
     
 budget:
-	echo Creating $(BUGETDIR)
-	cd $(BUGETDIR)
+	echo Creating $(BUDGETDIR) 
+	cd $(BUDGETDIR); \
 	pdflatex $(BUDGET); \
 	bibtex $(BUDGET); \
 	pdflatex $(BUDGET); \
@@ -60,6 +58,4 @@ budget:
 abstract:
 	echo Creating abstract
 
-
-    
-.SILENT:
+.PHONY: all rplan cvit pubs budget abstract

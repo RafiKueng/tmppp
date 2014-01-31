@@ -22,5 +22,6 @@ _ALL
 *.mtc1
 *.out
 *.synctex.gz
+*.synctex
 *.pdf
 candoc.tps

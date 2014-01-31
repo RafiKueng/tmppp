@@ -17,8 +17,8 @@ Class=LaTeXView
 Document=research_plan\research_plan.tex
 
 [Frame0_View0,0]
-TopLine=22
-Cursor=1069
+TopLine=171
+Cursor=8259
 
 [Frame1]
 Flags=0

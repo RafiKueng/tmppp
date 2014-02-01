@@ -1,5 +1,8 @@
 \documentclass[12pt]{article}
 
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+
 
 \def\ap#1#2#3{     {\it Ann. Phys. (NY) }{\bf #1} (19#2) #3}
 \def\arnps#1#2#3{  {\it Ann. Rev. Nucl. Part. Sci. }{\bf #1} (19#2) #3}
@@ -32,7 +35,7 @@
 \setlength{\evensidemargin}{0.25cm}
 %\setlength{\topmargin}{-2.0cm}         % Zurich
 \setlength{\topmargin}{-1.0cm}         % Bern
-\def\thefootnote{\fnsymbol{footnote}}
+%\def\thefootnote{\fnsymbol{footnote}}
 
 \setlength{\parindent}{0pt} % No indent
 
@@ -42,25 +45,49 @@
 %-----------------------------------------------------------------------
 
 \begin{document}
-
-\newpage
+\pagestyle{empty}
 
 \section*{List of Publications}
 
-Published papers:
+\subsection{Published Papers}
+Currently, I don't have any published papers.
+
+\subsection{In Preparation}
 
 \begin{itemize}
 \item
   \emph{``Lens Modeling in SpaceWarps''}\\
-  {\bf R. Küng}, Other Name1, ...
-  2014\\
-  Journal, volume 123, p. 0--1
+  {\bf Rafael Küng}, Philip Marshall, Anupreeta More, Aprajita Verma, Amit Kapadina, Elisabeth Baeten, Claude Cornen, Christine McMillian, Julianne Wilcox, Jonas Odermatt, Jonathan Coles, Surhud More and Prasenjit Saha\\
+  {\small
+  to be available in Feb, 2014\\
+  Evaluation of volunteers modelling performance using SpaghettiLens. The follow up paper to my MSc thesis.
+  (Live version available (beta)\footnote{\url{http://mite.physik.uzh.ch}}.
+  Documentation (MSc thesis) available\footnote{\url{http://www.physik.uzh.ch/~rafik/docs/spaghettilens.pdf}}.
+  Source code available\footnote{\url{https://github.com/RafiKueng/SpaghettiLens}}.)
+  }
+  
+\item
+  \emph{``An All-Inorganic Responsive Surface: Reversible Electrochemical Contact Angle Switching of Hexagonal Boron Nitride Nanomesh''}\\
+  Stijn F.L. Mertens, Stefan Muff, Adrian Hemmi, {\bf Rafael Küng}, Steven De Feyter, Jürg Osterwalder and Thomas Greber\\
+  {\small
+  Abstract submitted April 2012 for ECOSS2012, currently pending\\
+  I implemented an algorithm for automatic contact angle measurement of a fluid on a monolayer of hexagonal boron nitride on Rh(111).
+  (Source code available\footnote{\url{https://github.com/RafiKueng/dropContactAngleMeasurement}}.)
+  }
 \end{itemize}
 
-%\begin{itemize}
-%\item \emph{``Testing General Relativity with LISA including Spin Precession and Higher Harmonics in the Waveform''}\\ 
-%      {\bf C. Huwyler}, A. Klein \& Ph. Jetzer 2011\\
-%      Physical Review D, volume 86, issue 8, 084028
-%\end{itemize}
+\subsection{Theses}
+
+\begin{itemize}
+  \item
+    \emph{``SpaghettiLens -- Lens modeling made easy''}
+    \footnote{\url{http://www.physik.uzh.ch/~rafik/docs/spaghettilens.pdf}}\\
+    MSc thesis in Computational Science at UZH, September 2013
+  \item
+    \emph{``HaloViz --  An analysis and visualization tool for halos in astrophysical \\ ssimulations''}
+    \footnote{\url{http://www.physik.uzh.ch/~rafik/docs/haloviz.pdf}}\\
+     BSc thesis in Physics at UZH, March 2011
+\end{itemize}
+
 
 \end{document}

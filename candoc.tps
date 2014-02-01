@@ -17,8 +17,8 @@ Class=LaTeXView
 Document=research_plan\research_plan.tex
 
 [Frame0_View0,0]
-TopLine=171
-Cursor=8259
+TopLine=189
+Cursor=9325
 
 [Frame1]
 Flags=0
@@ -32,11 +32,11 @@ NormalPos.top=23
 NormalPos.right=1000
 NormalPos.bottom=342
 Class=LaTeXView
-Document=cv\cv_kueng_rafael.tex
+Document=publications\publications.tex
 
 [Frame1_View0,0]
-TopLine=7
-Cursor=12595
+TopLine=0
+Cursor=1997
 
 [Frame2]
 Flags=0
@@ -50,11 +50,11 @@ NormalPos.top=23
 NormalPos.right=1000
 NormalPos.bottom=342
 Class=LaTeXView
-Document=publications\publications.tex
+Document=cv\cv_kueng_rafael.tex
 
 [Frame2_View0,0]
-TopLine=17
-Cursor=2297
+TopLine=160
+Cursor=7016
 
 [Frame3]
 Flags=0
@@ -71,8 +71,8 @@ Class=LaTeXView
 Document=budget\budget.tex
 
 [Frame3_View0,0]
-TopLine=0
-Cursor=515
+TopLine=33
+Cursor=1747
 
 [SessionInfo]
 FrameCount=4

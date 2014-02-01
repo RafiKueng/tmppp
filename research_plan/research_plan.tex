@@ -14,7 +14,8 @@
 \setlength{\evensidemargin}{0.25cm}
 %\setlength{\topmargin}{-2.0cm}         % Zurich
 \setlength{\topmargin}{-1.5cm}         % Bern
-\def\thefootnote{\fnsymbol{footnote}}
+%\def\thefootnote{\fnsymbol{footnote}}
+%\renewcommand{\thefootnote}{\arabic{footnote}}
 
 \setlength{\parindent}{0pt} % No indent
 
@@ -38,21 +39,21 @@ Blabla
 \end{abstract}
 
 
-\subsection{Introduction and Status of Research}
+\subsection{Introduction and State of Research}
 \label{sec:intro}
 
-\subsubsection{General relativity and gravitational lenses}
+\subsubsection{General Relativity and Gravitational Lensing}
 
 In the year 1915, Albert Einstein published the theory of General Relativity (GR).
 This theory describes the interplay of matter (energy and impulse) and space-time and the perturbations on the latter caused by the former.
 GR allowed the first time to correctly describe the anomalous precession of Mercury.
 The next experimental proof of GR was the deflection of the light of a star by the sun (by Eddington in the year 1919).
 Einstein already predicted this phenomena in 1911 up to a factor of two.
-This was the starting shoot for Einstein’s second great theory and first observation and evidence of \emph{(micro) gravitational lensing}\footnote{Even thou the accuracy of this measurement was questioned in recent years, see \cite{kennefick2009testing}}.
+This was the starting shoot for Einstein’s second great theory and first observation and evidence of \emph{(micro) gravitational lensing}\footnote{Even though the accuracy of this measurement was questioned in recent years, see \cite{kennefick2009testing}}.
 
-Gravitational Lensing (GL) describes the phenomena of deflection of light around a massive object, due to the deflections in space-time caused by the mass.
-Quite similar to the deflection of the path of a marble rolling on a rubber sheet, stretched by a mass in it's centre.
-If the source of the light (``source''), the massive object (``lens'') and the observer align approximately in a line, these distortions act similar to a regular lens.
+Gravitational Lensing describes the phenomena of deflection of light around a massive object, due to the deflections in space-time caused by the mass.
+Quite similar to the deflection of the path of a marble rolling on a rubber sheet, stretched into a funnel by a mass in it's centre.
+If the source of the light (``source''), the massive object (``lens'') and the observer align approximately in a line, these distortions act different to a regular optical lens.
 Depending on the configuration, a background light source is distorted, magnified or even multiplied, as shown in Fig.~\ref{fig:grav_lens}.
 
 \begin{figure}[h]
@@ -64,45 +65,91 @@ Depending on the configuration, a background light source is distorted, magnifie
 
 This phenomena is divided into three sub categories:
 \begin{itemize}
-	\item \emph{Strong lensing} occurs if the lens is extremely massive. Consider a single galaxy, galaxy clusters or black holes.
-Strong lensing allows not only for displacements of sources, but for magnification and creation of multiple images.
-The first observed strong lensing was the twin quasar Q0957+561 discovered 1979 (\cite{walsh19790957}).
+	\item \emph{Strong lensing} occurs if the lens is extremely massive. Consider single galaxies, galaxy clusters or black holes.
+Strong lensing allows not only for displacements of sources, but for magnification and creation of multiple images, arc like structure or even rings, called Einstein rings.
+The first observed strong lensing was the twin quasar Q0957+561 discovered 1979 (\cite{walsh19790957}) and the most popular is the Einstein Cross Q2237+030, shown in Fig.~\ref{fig:einsteinc} \cite{ec1985}.
   \item In contrast, \emph{Weak lensing} phenomena are not directly observable.
-The GL caused by a weak or far away gravitational field causes only a distortion of the shape of sources (shear), that can be statistically analysed.
+The lensing caused by a weak or far away gravitational field causes only a distortion of the shape of sources (shear), that can be statistically analysed.
   \item \emph{Micro lensing} deals with tiny perturbations of the perceived light magnitude from a source, caused by gravitational field in the order of single lensing stars.
 Micro lensing is used to detect MACHOs\footnote{Massive Astrophysical Compact Halo Object} and extra solar planets.
 \end{itemize}
 
-In my work, I'm focussing on strong lensing, since it's directly detectable in astronomical pictures taken by telescopes.
+\begin{figure}[h]
+	\centering
+		\includegraphics[width=0.5\textwidth]{img/einstein_cross}
+	\caption{Einstein cross (Q2237+030): Lensing galaxy cluster in the middle, surrounded by 4 images of the same source quasar, behind the lensing galaxy cluster. (Hubble, \cite{ec1985})}
+	\label{fig:einsteinc}
+\end{figure}
 
 
-\subsubsection{Finding gravitational lenses}
+%In my work, I'm focussing on strong lensing, since it's directly detectable in astronomical pictures taken by telescopes.
 
-
-
-\subsubsection{Gravitational lens modelling}
+\subsubsection{The Use of Gravitational Lenses}
 
 Since the effect of gravitational lensing depends on a variety of parameters, the study of gravitational lenses allow an alternative approach of estimating many of those parameters.
 The study of a discovered gravitational lens usually involves in a first step to create an accurate model for the source light profile / distribution, the lensing mass distribution and the distances between source, lens and observer.
-This process is commonly referred to as ``modelling'' a gravitational lens.
+This process is commonly referred to as \emph{modelling} a gravitational lens.
 These models allow to tackle down a lot of open questions in current astrophysics and even some general physical questions.
 
-The model of the lensing allows in a first step to estimate total masses of distant (lensing) galaxies.
+A model of a lens allows in a first step to estimate total masses of distant (lensing) galaxies.
 It takes into account the whole mass of the lens, the visible matter and the dark matter \cite{kochanek1995there}.
 Thus it offers an alternative\footnote{Alternative to the approach of particle physics and particle collides like LHC.} approach to tackle down the mystery of dark matter.
-It allows the measure the ratio of visible matter to dark matter and the radial distribution of dark matter in galaxies \cite{treukoop04}.
+It allows to measure the ratio of visible matter to dark matter and the radial distribution of dark matter in galaxies \cite{treukoop04}.
 Additionally it allows to test other standard procedures to estimate distant masses \cite{kochanek1995there}.
 
-Models of sources in a gravitational lensing model provides information about potentially very early objects in the universe.
-Those object can only be observed, due to the magnification effect of GL and could lead to new information about the early evolution of the universe (\cite{rusin03}).
+Models of sources in a gravitational lensing model provide information about potentially very early objects in the universe.
+Those objects can only be observed due to the magnification effect of a lens and could lead to new information about the early evolution of the universe (\cite{rusin03}).
 
-If two or more images can be observed, there is usually a time delay between those images, since one light path is longer.
-This information can be used to narrow down fundamental cosmological parameters, as described in \cite{refsdal1964}.
+If two or more images can be observed, there is usually a time delay between those images, since lens and source are not perfectly aligned and thus the light paths have different length.
+This information can be used to narrow down fundamental cosmological parameters like the cosmological constant and the Hubble constant (``the age of the universe'') as described in \cite{refsdal1964} and recently done by \cite{age_uni}.
+
+
+Models are usually produced individually by a scientist using one of the modelling codes available\footnote{see \cite{overview_soft2013} for an overview}.
+This is usually a time consuming manual process, involving writing script files for the modelling software and a lot of intuition and try and error.
+
+For further analyses like \cite{age_uni}, several models of several lenses need to be combined.
+Thus there is a high demand in models of gravitational lenses.
+
+
+
+
+\subsubsection{Detecting Gravitational Lenses}
+
+Today, about 400 secure gravitational lenses have been found and another 200 likely candidates.
+Most of these lenses have been found by accident by researchers looking at astronomical images for other reasons.
+Using imagery from Hubble Space Telescope (HST) and older ground based telescopes lead to a detection rate of about 1 lens per 1 to 10 square degrees\footnote{1 square degree $\approx$ 0.03\% of the sky}.
+Only recently, focussed big scale research for lenses begun.
+Modern surveys cover thousands of square degrees, containing millions of galaxy images that have to be scanned in order to find the lenses.
+
+There have been trials with computer algorithms (robots) scanning the huge amount of data and automatically identify lensing systems\cite{robots}, with mixed results.
+They work well in clean lensing systems with no other light sources around.
+In most situations however, the robots either miss many lenses (low completeness) or identify many other objects as lenses (low purity).
+This makes manual inspection indispensable.
+
+Taking these results into account, the \emph{SpaceWarps} project\footnote{\url{http://www.spacewarps.org}} has been started in May 2013, as part of the \emph{Zooniverse} citizen science project\footnote{\url{https://www.zooniverse.org/}}.
+In \emph{Zooniverse}, members of the public (``volunteers'') are invited to help to analyse different kind of scientific data that are too difficult for robots and too excessive for specialists.
+As of January 2014, there have been ``almost 6 million classifications of images from tens of thousands of people'' and a list of 3300 lensing candidates for further investigation\footnote{preliminarily, not officially published data, taken from \url{http://blog.spacewarps.org}}.
+
+
+
+
+
+
+
+------------------
+
+Currently the first systematic surveys (DES\footnote{\url{http://www.darkenergysurvey.org}} or PanStarrs\footnote{\url{http://pan-starrs.ifa.hawaii.edu}}) start running.
+Due to their large survey area, they are expected to lead to thousands of new discoveries over the next decade.
+In the 2020s, the next generation of surveys (ground based LSST\footnote{\url{http://www.lsst.org}} and space based Euclid\footnote{\url{http://sci.esa.int/euclid/}} and WFIRST\footnote{\url{http://wfirst.gsfc.nasa.gov/}}) are expected to result in ten thousands of new lenses.
+
+------------------
 
 
 \subsection{Own Recent and Ongoing Work}
 
 \subsubsection{Motivation}
+
+The idea of this proposal is to extend the idea of involving volunteers not only in the process of finding lenses, but also in modelling them.
 
 \subsubsection{My approach}
 
@@ -182,7 +229,7 @@ Thus I'm requesting a yearly budget to travel to conferences and meetings, and t
 \subsection{Scientific Relevance of Expected Results}
 
 The main problems addressed with my thesis is to establish a network of software, volunteers and researchers to provide the scientific community a fast and reliable way to evaluate large amount of gravitational lenses.
-When the NASA mission Wide Field Infrared Survey Telescope (WFIRST, to be launched in 2024) and the ESA space telescope Euclid (launch in 2020), the facilities to analyse and model GL in large scale will be required.
+When the NASA mission Wide Field Infrared Survey Telescope (WFIRST, to be launched in 2024) and the ESA space telescope Euclid (launch in 2020), the facilities to analyse and model lenses in large scale will be required.
 We have the opportunity, to build up knowledge and infrastructure to make sure, the data generated by those missions are properly analysed.
 
 %Gravitational lenses detected today usually get modelled by the discoverer.

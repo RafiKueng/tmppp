@@ -111,6 +111,40 @@
   timestamp = {2014.02.01}
 }
 
+@ARTICLE{overview_soft2013,
+  author = {{Lefor}, A.~T. and {Futamase}, T. and {Akhlaghi}, M.},
+  title = {{A systematic review of strong gravitational lens modeling software}},
+  journal = {\nar},
+  year = {2013},
+  volume = {57},
+  month = jul,
+  pages = {1-13},
+  doi = {10.1016/j.newar.2013.05.001},
+  eprint = {1206.4382},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://adsabs.harvard.edu/abs/2013NewAR..57....1L},
+  archiveprefix = {arXiv},
+  primaryclass = {astro-ph.IM}
+}
+
+@ARTICLE{2012MNRAS.425.3077L,
+  author = {{Lubini}, M. and {Coles}, J.},
+  title = {{A sampling strategy for high-dimensional spaces applied to free-form
+	gravitational lensing}},
+  journal = {\mnras},
+  year = {2012},
+  volume = {425},
+  month = oct,
+  pages = {3077-3084},
+  doi = {10.1111/j.1365-2966.2012.21673.x},
+  eprint = {1207.1722},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://adsabs.harvard.edu/abs/2012MNRAS.425.3077L},
+  archiveprefix = {arXiv},
+  keywords = {gravitational lensing: strong, methods: numerical, methods: statistical},
+  primaryclass = {astro-ph.IM}
+}
+
 @ARTICLE{robots,
   author = {Philip J. Marshall and David W. Hogg and Leonidas A. Moustakas and
 	Christopher D. Fassnacht and Maruša Bradač and Tim Schrabback and

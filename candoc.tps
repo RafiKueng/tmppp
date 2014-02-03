@@ -11,14 +11,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=23
-NormalPos.right=1000
-NormalPos.bottom=342
+NormalPos.right=1658
+NormalPos.bottom=638
 Class=LaTeXView
-Document=research_plan\research_plan.tex
+Document=budget\budget.tex
 
 [Frame0_View0,0]
-TopLine=189
-Cursor=9325
+TopLine=39
+Cursor=1713
 
 [Frame1]
 Flags=0
@@ -29,14 +29,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=23
-NormalPos.right=1000
-NormalPos.bottom=342
+NormalPos.right=1658
+NormalPos.bottom=638
 Class=LaTeXView
-Document=publications\publications.tex
+Document=research_plan\research_plan.tex
 
 [Frame1_View0,0]
-TopLine=0
-Cursor=1997
+TopLine=327
+Cursor=23111
 
 [Frame2]
 Flags=0
@@ -47,14 +47,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=23
-NormalPos.right=1000
-NormalPos.bottom=342
+NormalPos.right=1658
+NormalPos.bottom=638
 Class=LaTeXView
-Document=cv\cv_kueng_rafael.tex
+Document=publications\publications.tex
 
 [Frame2_View0,0]
-TopLine=160
-Cursor=7016
+TopLine=0
+Cursor=1997
 
 [Frame3]
 Flags=0
@@ -65,14 +65,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=23
-NormalPos.right=1000
-NormalPos.bottom=342
+NormalPos.right=1658
+NormalPos.bottom=638
 Class=LaTeXView
-Document=budget\budget.tex
+Document=cv\cv_kueng_rafael.tex
 
 [Frame3_View0,0]
-TopLine=33
-Cursor=1747
+TopLine=160
+Cursor=7017
 
 [SessionInfo]
 FrameCount=4

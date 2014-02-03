@@ -1,6 +1,22 @@
 % This file was created with JabRef 2.9.2.
 % Encoding: UTF8
 
+@ARTICLE{2014arXiv1401.7990C,
+  author = {{Coles}, J.~P. and {Read}, J.~I. and {Saha}, P.},
+  title = {{Gravitational Lens Recovery with GLASS: Measuring the mass profile
+	and shape of a lens}},
+  journal = {ArXiv e-prints},
+  year = {2014},
+  month = jan,
+  eprint = {1401.7990},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System},
+  adsurl = {http://adsabs.harvard.edu/abs/2014arXiv1401.7990C},
+  archiveprefix = {arXiv},
+  keywords = {Astrophysics - Cosmology and Extragalactic Astrophysics, Astrophysics
+	- Instrumentation and Methods for Astrophysics},
+  primaryclass = {astro-ph.CO}
+}
+
 @ARTICLE{flanaganhughes2005,
   author = {{Flanagan}, {\'E}.~{\'E}. and {Hughes}, S.~A.},
   title = {{The basics of gravitational wave theory}},
@@ -127,7 +143,7 @@
   primaryclass = {astro-ph.IM}
 }
 
-@ARTICLE{2012MNRAS.425.3077L,
+@ARTICLE{glass,
   author = {{Lubini}, M. and {Coles}, J.},
   title = {{A sampling strategy for high-dimensional spaces applied to free-form
 	gravitational lensing}},
